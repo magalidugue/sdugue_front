@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: auto;
+  height: 150px;
+  margin-left: 10px;
+}
