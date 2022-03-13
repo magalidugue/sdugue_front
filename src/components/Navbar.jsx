@@ -4,14 +4,14 @@ import logo from "../assets/LOGO_OK.svg";
 
 const NavBar = () => {
   return (
-    <div className="container">
+    <div className="container-fluid">
       {/* <div className="row">
         <div className="col-12 logo">
           <img className="logo" src={logo}></img>
         </div>
       </div> */}
       <div className="row">
-        <nav class="col navbar navbar-expand-lg navbar-light">
+        <nav class="col-12 navbar navbar-expand-lg navbar-light">
           <a className="navbar-brand" href="#">
             <img className="logo" src={logo}></img>
           </a>
